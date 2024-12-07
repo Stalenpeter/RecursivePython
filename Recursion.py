@@ -41,4 +41,16 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-print(factorial(-4))
+#print(factorial(-4))
+
+
+#Fibonacci Numbers 
+
+def fibonacci(n):
+    if n in [1,0]:
+        return 1
+    else:
+        fibonacci(n-1) + fibonacci(n-1)
+
+
+print(fibonacci(10))
